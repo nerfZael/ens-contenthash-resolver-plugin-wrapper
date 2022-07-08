@@ -1,0 +1,8 @@
+format: 0.1.0
+language: plugin/typescript
+name: EnsContenthashUriResolverExtension
+module: ./src/index.ts
+schema: ./src/schema.graphql
+import_redirects:
+  - uri: "ens/uri-resolver.core.polywrap.eth"
+    schema: ./src/uri-resolver-ext.schema.graphql
