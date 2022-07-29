@@ -20,8 +20,8 @@
     "test:watch": "jest --watch --passWithNoTests --verbose"
   },
   "dependencies": {
-    "@polywrap/core-js": "0.1.0",
-    "ethers": "^5.6.9"
+    "@polywrap/core-js": "0.3.0",
+    "ethers": "5.6.9"
   },
   "devDependencies": {
     "@types/prettier": "2.6.0",
