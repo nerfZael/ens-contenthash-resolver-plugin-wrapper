@@ -1,7 +1,7 @@
 {
   "name": "@nerfzael/ens-contenthash-resolver-plugin-wrapper",
   "description": "Polywrap ENS contenthash URI resolver plugin wrapper",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -13,20 +13,20 @@
   ],
   "scripts": {
     "build": "rimraf ./build && yarn codegen && tsc --project tsconfig.build.json",
-    "codegen": "npx polywrap plugin codegen",
+    "codegen": "npx polywrap codegen",
     "lint": "eslint --color -c ../../../../.eslintrc.js src/",
     "test": "jest --passWithNoTests --runInBand --verbose",
     "test:ci": "jest --passWithNoTests --runInBand --verbose",
     "test:watch": "jest --watch --passWithNoTests --verbose"
   },
   "dependencies": {
-    "@polywrap/core-js": "0.3.0",
+    "@polywrap/core-js": "0.8.0",
     "ethers": "5.6.9"
   },
   "devDependencies": {
     "@types/prettier": "2.6.0",
     "jest": "28.1.2",
-    "polywrap": "0.1.0",
+    "polywrap": "0.8.0",
     "rimraf": "3.0.2",
     "ts-jest": "26.5.4",
     "ts-node": "8.10.2",
